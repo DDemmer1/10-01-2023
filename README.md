@@ -19,7 +19,7 @@ In Java gibt das schon fertige ```interface Comparable``` mit der Methode ```pub
  - Einen NEGATIVEN ```int``` wenn das Objekt von dem aus die Methode ausgeführt wurde KLEINER sein soll
  - Eine 0  wenn die Objekte gleich sein sollen
 
-Versucht das Interface in die Item Klasse zu implementieren und anhand der ```int id``` die ```compareTo``
+Versucht das Interface in die Item Klasse zu implementieren und anhand der ```int id``` die ```compareTo``` zu vervollständigen.
 
   ### ℹ️ Resourcen:
 Hier noch ein paar nützliche 📃Artikel, 🖊️Threads und 🎥Videos
