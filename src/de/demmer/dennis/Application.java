@@ -11,7 +11,7 @@ public class Application {
 		
 		Arrays.sort(intArr);
 		
-		System.out.println(Arrays.toString(intArr));
+//		System.out.println(Arrays.toString(intArr));
 		
 		
 		
@@ -29,12 +29,11 @@ public class Application {
 		
 		System.out.println(Arrays.toString(itemArray));
 		
-		
 		Arrays.sort(itemArray);
 		
-		
-		
-		System.out.println(i1.compareTo(i5));
+		System.out.println(Arrays.toString(itemArray));
+
+//		System.out.println(i1.compareTo(i5));
 	
 		
 
