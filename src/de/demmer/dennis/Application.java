@@ -1,6 +1,5 @@
 package de.demmer.dennis;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Application {
@@ -25,11 +24,14 @@ public class Application {
 		Item i5 = new Item(9153666, 2.50, "Kabel");
 
 		Item[] itemArray = {i1, i2, i3, i4, i5};
-	
 		
 		System.out.println(Arrays.toString(itemArray));
 		
-		Arrays.sort(itemArray);
+		ItemPriceComparator itemPriceComparator = new ItemPriceComparator();
+		ItemNameComparator itemNameComparator = new ItemNameComparator();
+		
+		
+		Arrays.sort(itemArray,itemNameComparator);
 		
 		System.out.println(Arrays.toString(itemArray));
 
